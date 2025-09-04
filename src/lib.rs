@@ -110,7 +110,7 @@ impl SimplePlugin for InventorySystem {
         Ok(())
     }
 
-    async fn register_handlers(&mut self, events: Arc<EventSystem>) -> Result<(), PluginError> {
+    async fn register_handlers(&mut self, events: Arc<EventSystem>, _context: Arc<dyn ServerContext>) -> Result<(), PluginError> {
         info!("📝 InventorySystem: Registering comprehensive inventory event handlers...");
 
         // Clone references for handlers
