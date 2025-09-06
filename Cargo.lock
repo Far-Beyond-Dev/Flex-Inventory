@@ -304,9 +304,9 @@ dependencies = [
 
 [[package]]
 name = "horizon_event_system"
-version = "0.16.0"
+version = "0.17.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e3e0187bdf4d538e84a109c650a3c1e38f4f1ad3a4495f3b0838329e6c920a1e"
+checksum = "6eba907babdae1475f9493d346e55f5c31fa075b21d75dce873959580ff34b18"
 dependencies = [
  "async-trait",
  "base64",
